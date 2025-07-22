@@ -11,3 +11,4 @@ BEGIN
     where D_Rank = @n
     )
 end 
+select getNthHighestSalary(2)
